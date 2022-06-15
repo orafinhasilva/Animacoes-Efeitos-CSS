@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <svg
+      id="blob"
+      viewBox="0 0 200 200"
+      xmlns="http://www.w3.org/2000/svg"
+    ></svg>
+
+    <div class="nav">
+      <a href="javascript:void(0);" class="icon" onClick="toggle()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <div id="links">
+        <a href="/">Home</a>
+        <a href="/">News</a>
+        <a href="/">Contact</a>
+        <a href="/">FAQ</a>
+      </div>
+    </div>
+    <script>
+      function toggle() {
+        let links = document.getElementById("links");
+        let blob = document.getElementById("blob");
+        blob.classList.toggle("open");
+        if (links.style.display == "block") {
+          links.style.display = "none";
+        } else {
+          links.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
