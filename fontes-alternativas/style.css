@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Anurati';
+    src: url('fonts/anurati/Anurati-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Silverstone';
+    src: url('fonts/silverstone/Silverstone.otf'),
+         url('fonts/silverstone/SilverstoneTextured.otf');
+}
+
+@font-face {
+    font-family: 'Reckoner';
+    src: url('fonts/reckoner/Reckoner.ttf'),
+         url('fonts/reckoner/Reckoner_Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Quantum';
+    src: url('fonts/quantum/Quantum.otf');
+}
+
+@font-face {
+    font-family: 'Gravitation';
+    src: url('fonts/gravitation/GravitationDemoRegular.ttf');
+}
+
+@font-face {
+    font-family: 'Ginevra';
+    src: url('fonts/ginevra/Ginevrademo-K7ePy.ttf');
+}
+
+@font-face {
+    font-family: 'Exan';
+    src: url('fonts/exan/Exan-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Elianto';
+    src: url('fonts/elianto/Elianto-Regular.ttf'),
+         url('fonts/elianto/Elianto-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Bubayang';
+    src: url('fonts/bubayang/Bubayang.ttf'),    
+         url('fonts/bubayang/Bubayang.otf');
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('fonts/brown/BrownCasalova_Demo.ttf');
+}
+
+@font-face {
+    font-family: 'Brolink';
+    src: url('fonts/brolink/BrolinkDemo-VGyMZ.otf');
+}
+
+@font-face {
+    font-family: 'Bombast';
+    src: url('fonts/bombast/Bombast.ttf'), 
+         url('fonts/bombast/Bombast.otf');
+}
+
+@font-face {
+    font-family: 'Blanka';
+    src: url('fonts/blanka/Blanka-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Azonix';
+    src: url('fonts/azonix/Azonix.otf');
+}
+
+@font-face {
+    font-family: 'Atlantica';
+    src: url('fonts/atlantica/Atlantica-Display-trial.ttf'),
+         url('fonts/atlantica/Atlantica-Signature-trial.ttf'),
+         url('fonts/atlantica/Atlantica-Text-trial.ttf');
+}
+
+#f1 {
+    font-family: 'Anurati';
+}
+
+#f2 {
+    font-family: 'Silverstone';
+}
+
+#f3 {
+    font-family: 'Reckoner';
+}
+
+#f4 {
+    font-family:'Quantum';
+}
+
+#f5 {
+    font-family: 'Gravitation';
+}
+
+#f6 {
+    font-family: 'Ginevra';
+}
+
+#f7 {
+    font-family: 'Exan';
+}
+
+#f8 {
+    font-family: 'Elianto';
+}
+
+#f9 {
+    font-family: 'Bubayang';
+}
+
+#f10 {
+    font-family: 'Brown';
+}
+
+#f11 {
+    font-family: 'Brolink';
+}
+
+#f12 {
+    font-family: 'Bombast';
+}
+
+#f13 {
+    font-family: 'Blanka';
+}
+
+#f14 {
+    font-family: 'Azonix';
+}
+
+#f15 {
+    font-family: 'Atlantica';
+}
