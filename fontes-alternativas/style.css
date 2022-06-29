@@ -80,6 +80,34 @@
          url('fonts/atlantica/Atlantica-Text-trial.ttf');
 }
 
+@font-face {
+    font-family: 'Beacon';
+    src: url('fonts/beacon/Beacon.otf'),
+         url('fonts/beacon/Beacon.ttf');
+}
+
+@font-face {
+    font-family: 'Decorative';
+    src: url('fonts/decorative/Decorative\ Monogram.otf'),
+         url('fonts/decorative/Decorative\ Monogram.ttf');
+}
+
+@font-face {
+    font-family: 'Luthon';
+    src: url('fonts/luthon/Luthon\ Southard\ Script.otf'),
+         url('fonts/luthon/Luthon\ Southard\ Script.ttf');
+}
+
+@font-face {
+    font-family: 'Spacer';
+    src: url('fonts/spacer/Spacer36.otf');
+}
+
+@font-face {
+    font-family: 'Vierasti';
+    src: url('fonts/vierasti/Vierasti\ Monogram.ttf');
+}
+
 #f1 {
     font-family: 'Anurati';
 }
@@ -138,4 +166,24 @@
 
 #f15 {
     font-family: 'Atlantica';
+}
+
+#f16 {
+    font-family: 'Beacon';
+}
+
+#f17 {
+    font-family: 'Decorative';
+}
+
+#f18 {
+    font-family: 'Luthon';   
+}
+
+#f19 {
+    font-family: 'Spacer';
+}
+
+#f20 {
+    font-family: 'Vierasti';
 }
