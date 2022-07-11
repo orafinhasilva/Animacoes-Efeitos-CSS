@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gallery {
+            width: 85vw;
+            height: 60vmin;
+            display: flex;
+            gap: 5px;
+        }
+        .gallery img {
+            height: 100%;
+            flex: 1;
+            object-fit: cover;
+            overflow: hidden;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: all 0.3s;
+        }
+        .gallery img:hover {
+            flex: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="https://images.pexels.com/photos/8542573/pexels-photo-8542573.jpeg?cs=srgb&dl=pexels-labskiii-8542573.jpg&fm=jpg" alt="">
+        <img src="https://images.pexels.com/photos/9725241/pexels-photo-9725241.jpeg?cs=srgb&dl=pexels-legitimum-couro-9725241.jpg&fm=jpg" alt="">
+        <img src="https://images.pexels.com/photos/6705265/pexels-photo-6705265.jpeg?cs=srgb&dl=pexels-montage-art-media-6705265.jpg&fm=jpg" alt="">
+        <img src="https://images.pexels.com/photos/8543100/pexels-photo-8543100.jpeg?cs=srgb&dl=pexels-mikhail-nilov-8543100.jpg&fm=jpg" alt="">
+    </div>
+</body>
+</html>
